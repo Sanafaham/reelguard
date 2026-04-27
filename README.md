@@ -1,2 +1,2 @@
-# reelguard
-ReelGuard — Instagram comment monitoring and alert service for small businesses
+# alertvibe
+AlerVibe — Instagram comment monitoring and alert service for small businesses
