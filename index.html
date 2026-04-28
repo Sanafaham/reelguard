@@ -525,19 +525,19 @@ h1 em { color: var(--red); font-style: normal; }
       <p class="insight-text" id="insight-text"></p>
     </div>
 
-    <div class="gate">
-      <p class="gate-title">Want to stop losing this money?</p>
-      <p class="gate-sub">Enter your email and I'll personally reach out to show you how ReelGuard monitors every comment and alerts you the second a buyer asks a question — so you never miss another sale.</p>
-      <input class="input-email" id="email-input" type="email" placeholder="your@email.com">
-      <button class="btn-report" onclick="submitEmail()">Show Me How To Fix This</button>
-      <p class="gate-privacy">No spam. Just one conversation.</p>
-    </div>
+  <div class="gate">
+  <p class="gate-title">Apply for Founding Access</p>
+  <p class="gate-sub">I’m opening AlertVibe to 5 founding accounts. I will personally review your Instagram comments, show you missed buyer intent, and set it up for you free for 14 days if it’s a fit.</p>
+  <input class="input-email" id="email-input" type="email" placeholder="your@email.com">
+  <button class="btn-report" onclick="submitEmail()">Apply for Founding Access</button>
+  <p class="gate-privacy">Limited to 5 accounts. No payment required.</p>
+</div>
   </div>
 
   <div id="success">
     <div class="success-icon">✓</div>
-    <p class="success-title">Got it. I'll be in touch.</p>
-    <p class="success-sub">Check your inbox. I'll personally reach out to show you exactly how ReelGuard works and whether it makes sense for your account.</p>
+    <p class="success-title">Got it. I’ll review your account.</p>
+    <p class="success-sub">Check your inbox. I’ll review your account and reach out if it’s a fit for the free 14-day founding setup.</p>
   </div>
 
 </div>
@@ -604,7 +604,7 @@ function showResults() {
   if (responseSpeed <= 0.4) {
     insight = '<strong>The hard truth:</strong> By the time you see a buying question in your comments, that person has already moved on. Most buyers wait less than 2 hours before losing interest or going to a competitor. At your current response speed, you are handing ' + lostSales.toFixed(1) + ' sales per week to someone else. That is <strong>$' + monthlyLoss.toLocaleString() + ' every single month</strong> that should have been yours.';
   } else {
-    insight = '<strong>You reply faster than most</strong> — but even a few hours means missing buyers who comment at night or early morning while you sleep. Those ' + missed + ' missed comments per week still cost you <strong>$' + monthlyLoss.toLocaleString() + ' per month</strong>. ReelGuard alerts you the second it happens, 24 hours a day, so you never miss one again.';
+    insight = '<strong>You reply faster than most</strong> — but even a few hours means missing buyers who comment at night or early morning while you sleep. Those ' + missed + ' missed comments per week still cost you <strong>$' + monthlyLoss.toLocaleString() + ' per month</strong>. AlertVibe alerts you the moment a real buyer shows up, so you can respond before they disappear.';
   }
   document.getElementById('insight-text').innerHTML = insight;
 }
